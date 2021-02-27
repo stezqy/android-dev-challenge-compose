@@ -36,12 +36,13 @@ fun PuppyDetailScreen(navController: NavController) {
 
     val puppy = navController.previousBackStackEntry
         ?.arguments?.getParcelable<PuppyItem>("puppy")
-    Scaffold(topBar = {
-        TopAppBar(
-            title = { Text(text = "Detail: ${puppy?.name ?: ""}") },
-            elevation = 4.dp
-        )
-    }) {
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text(text = "Detail: ${puppy?.name ?: ""}") },
+                elevation = 4.dp
+            )
+        }) {
         LazyColumn(
             modifier = Modifier
                 .fillMaxWidth()
