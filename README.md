@@ -6,12 +6,11 @@
 
 
 ## :scroll: Description
-<!--- Describe your app in one or two sentences -->
+One simple example using JetPack Compose， including a list page and a detail page for puppy.
 
 
 ## :bulb: Motivation and Context
-<!--- Optionally point readers to interesting parts of your submission. -->
-<!--- What are you especially proud of? -->
+A good experience of using compose~!
 
 
 ## :camera_flash: Screenshots
