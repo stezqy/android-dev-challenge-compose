@@ -69,12 +69,12 @@ fun PuppyDetailScreen(navController: NavController) {
             }
             item {
                 Text(
-                    text = "From: ${puppy?.from.toString()}",
+                    text = "From: ${puppy?.from}",
                 )
             }
             item {
                 Text(
-                    text = "Description: ${puppy?.description.toString()}",
+                    text = "Description: ${puppy?.description}",
                 )
             }
 

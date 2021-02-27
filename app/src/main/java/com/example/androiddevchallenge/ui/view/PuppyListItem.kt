@@ -54,7 +54,7 @@ fun PuppyListItem(puppy: PuppyItem, onClick: (PuppyItem) -> Unit) {
             ) {
                 Row {
                     Text(
-                        text = puppy.name.toString(),
+                        text = puppy.name,
                         modifier = Modifier
                             .align(Alignment.CenterVertically)
                     )
@@ -72,7 +72,7 @@ fun PuppyListItem(puppy: PuppyItem, onClick: (PuppyItem) -> Unit) {
                     Text(
                         overflow = TextOverflow.Ellipsis,
                         maxLines = 4,
-                        text = puppy.description.toString(),
+                        text = puppy.description),
                         modifier = Modifier
                             .padding(8.dp, 0.dp, 0.dp, 0.dp)
                     )
