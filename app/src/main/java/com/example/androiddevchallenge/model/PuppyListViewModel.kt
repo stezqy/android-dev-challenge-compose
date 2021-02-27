@@ -29,16 +29,4 @@ class PuppyListViewModel : ViewModel() {
     init {
         items = MockData.list
     }
-
-    // event: addItem
-    fun addItem(item: PuppyItem) {
-        items = items + listOf(item)
-    }
-
-    // event: removeItem
-    fun removeItem(item: PuppyItem) {
-        items = items.toMutableList().also {
-            it.remove(item)
-        }
-    }
 }

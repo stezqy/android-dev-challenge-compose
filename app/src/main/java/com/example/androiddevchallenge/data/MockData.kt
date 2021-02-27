@@ -77,8 +77,5 @@ object MockData {
                 from = "England"
             )
         )
-
     }
-
-
 }
