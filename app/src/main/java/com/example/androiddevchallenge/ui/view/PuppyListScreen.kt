@@ -15,7 +15,6 @@
  */
 package com.example.androiddevchallenge.ui.view
 
-
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
@@ -52,7 +51,6 @@ fun PuppyListScreen(viewModel: PuppyListViewModel, navController: NavController)
         }
     )
 }
-
 
 @Composable
 private fun ListScreen(puppyList: List<PuppyItem>, onClick: (PuppyItem) -> Unit) {

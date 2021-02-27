@@ -18,10 +18,9 @@ package com.example.androiddevchallenge.ui.view
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
@@ -43,9 +42,11 @@ fun PuppyListItem(puppy: PuppyItem, onClick: (PuppyItem) -> Unit) {
         Surface(
             shape = RoundedCornerShape(8.dp),
             elevation = 4.dp,
-            modifier = Modifier.clickable(onClick = {
-                onClick(puppy)
-            })
+            modifier = Modifier.clickable(
+                onClick = {
+                    onClick(puppy)
+                }
+            )
         ) {
             Column(
                 modifier = Modifier
@@ -78,7 +79,6 @@ fun PuppyListItem(puppy: PuppyItem, onClick: (PuppyItem) -> Unit) {
                     )
                 }
             }
-
         }
     }
 }

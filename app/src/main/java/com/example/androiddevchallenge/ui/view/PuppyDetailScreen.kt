@@ -77,8 +77,6 @@ fun PuppyDetailScreen(navController: NavController) {
                     text = "Description: ${puppy?.description}",
                 )
             }
-
         }
-
     }
 }
