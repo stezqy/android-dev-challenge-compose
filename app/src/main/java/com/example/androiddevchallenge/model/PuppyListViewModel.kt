@@ -16,8 +16,8 @@
 package com.example.androiddevchallenge.model
 
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import com.example.androiddevchallenge.data.MockData
 import com.example.androiddevchallenge.data.PuppyItem

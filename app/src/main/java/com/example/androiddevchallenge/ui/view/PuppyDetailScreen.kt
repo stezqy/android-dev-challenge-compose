@@ -42,7 +42,8 @@ fun PuppyDetailScreen(navController: NavController) {
                 title = { Text(text = "Detail: ${puppy?.name ?: ""}") },
                 elevation = 4.dp
             )
-        }) {
+        }
+    ) {
         LazyColumn(
             modifier = Modifier
                 .fillMaxWidth()
@@ -58,7 +59,7 @@ fun PuppyDetailScreen(navController: NavController) {
             item {
                 Text(
                     color = MaterialTheme.colors.primary,
-                    text = "Name: ${puppy?.name.toString()}",
+                    text = "Name: ${puppy?.name}",
                 )
             }
             item {
